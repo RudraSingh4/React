@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react';
+import './App.css';
+import Todo from "./component/todo";
+const App = () => {
+  return(
+    <>
+      <h1 style={{textAlign:"center"}}>Welcome to Pooja Tibri</h1>
+      <Todo/>
+      
+    </>
+  )
+}
+
+// import Users from './Users'
+// import Class from './Class';
+// import New from './New'
+
+/*function App() {
+  let data= "Rudra Singh";
+  function sachin()
+  {
+    alert(data);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1>{data}</h1>
+    <button on onClick={sachin}>Click Me</button>
+     <Users />
+    <Class /> 
     </div>
   );
-}
+} */
+
+//Here We use JSx
+// function App(){
+//   return(
+//     <div className="App">
+//       <h1>JSX!</h1>
+//       <New />
+//     </div>
+//   );
+// } 
+
+// State in react 
+// function App(){
+//   let data = "Rudra";
+//   function updatedata()
+//   {
+//     data="Singh";
+//     alert(data)
+//   }
+//   return(
+//     <div className="App">
+//       <h1>{data}</h1>
+//       <button onClick={updatedata}>Update data</button>
+//     </div>
+//   );
+// }
 
 export default App;
