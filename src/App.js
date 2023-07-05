@@ -5,7 +5,7 @@ import Todo from "./component/todo";
 const App = () => {
   return(
     <>
-      <h1 style={{textAlign:"center"}}>Welcome to Pooja Tibri</h1>
+      <h1 style={{textAlign:"center"}}>Welcome to React App</h1>
       <Todo/>
       
     </>
